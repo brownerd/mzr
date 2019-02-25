@@ -2,7 +2,7 @@
 
 MZR is an module that highlights multiple character-per-line counts in any line of text. This is meant to be a tool for web typography nerds that want an indication of desired "character-per-line" settings.
 
-![MZR example](brownerd/mzr/blob/master/example.png?raw=true "MZR example")
+![MZR example](blob/master/example.png?raw=true "MZR example")
 
 ## Isntall
 
