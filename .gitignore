@@ -5,3 +5,5 @@ um.js
 *.ai
 .cache
 dist
+icons
+mzr-old.js
