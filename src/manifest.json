@@ -1,0 +1,21 @@
+{
+  "name": "MZR",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "MZR is an extension that helps you see the breakpoints in your text, so you can create the measure that you want. This is meant to be a tool for web typography nerds.",
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "index.html"
+  },  
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file:///*/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
