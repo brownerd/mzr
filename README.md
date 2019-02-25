@@ -5,11 +5,11 @@ MZR is an module that highlights multiple character-per-line counts in any line 
 ## Isntall
 
 ```
-npm install mzr --save-dev
+npm i rdmkit-mzr --save-dev
 ```
 
 ## Usage
-Pick any elemenet in your page and give it a data attribute of `data-mzr=""`. Assign this attribute any number. You can assign multiple numbers separated by a `/` to indicate multiple character counts in one line of text. Peep the example below.
+Pick any elemenet in your web page and give it a data attribute of `data-mzr=""`. Assign this attribute any number. You can assign multiple numbers separated by a `/` to indicate multiple character counts in one line of text. Peep the example below.
 
 ```html
 <!-- Example -->
@@ -18,7 +18,7 @@ Pick any elemenet in your page and give it a data attribute of `data-mzr=""`. As
 </p>
 
 ```
-### Example of output
+### Example output
 
 ![MZR example](https://github.com/brownerd/mzr/blob/master/example.png?raw=true "MZR example")
 
