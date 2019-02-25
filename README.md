@@ -2,8 +2,6 @@
 
 MZR is an module that highlights multiple character-per-line counts in any line of text. This is meant to be a tool for web typography nerds that want an indication of desired "character-per-line" settings.
 
-![MZR example](https://github.com/brownerd/mzr/blob/master/example.png?raw=true "MZR example")
-
 ## Isntall
 
 ```
@@ -20,5 +18,10 @@ Pick any elemenet in your page and give it a data attribute of `data-mzr=""`. As
 </p>
 
 ```
+### Example of output
 
+![MZR example](https://github.com/brownerd/mzr/blob/master/example.png?raw=true "MZR example")
 
+Here we can see that four measures are highlighted in one line of text: 35, 65, 85 and 105. Now we can use the web inspector to adjust font-size and/or column width to easily arived at the desired line measure.
+
+This is intended to be used for development purposes during the "design-to-code" phase.
