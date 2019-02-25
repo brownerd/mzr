@@ -1,6 +1,6 @@
 {
   "name": "rdmkit-mzr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MZR is a module that highlights multiple character-per-line counts in any line of text. This is meant to be a tool for web typography nerds that want an indication of desired 'character-per-line' settings.",
   "main": "src/index.js",
   "scripts": {
