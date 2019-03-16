@@ -1,13 +1,15 @@
 {
   "name": "rdmkit-mzr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "MZR is a module that highlights multiple measures (character-per-line counts) in any line of text. This is meant to be a tool for web typography nerds that want an indication of desired 'character-per-line' settings.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.js -d dist/ -o index.js",
     "dev": "parcel src/index.html --open 'google chrome canary'",
-    "icons": "cp ./src/icons/* ./dist"
+    "icons": "cp ./src/icons/* ./dist",
+    "predist": "rimraf dist && mkdir dist",
+    "dist": "terser ./src/index.js --compress --mangle --output ./dist/index.js"
   },
   "keywords": ["typography"],
   "author": "Brownerd",
